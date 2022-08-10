@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Davids-Web-API</name>
+    </assembly>
+    <members>
+        <member name="M:Davids_Web_API.Controllers.PlayerController.Get">
+            <summary>
+            Get all Local Players
+            </summary>
+        </member>
+        <member name="M:Davids_Web_API.Controllers.PlayerController.Get(System.Int32)">
+            <summary>
+            Search for Local Player by ID and see Local Player's favourite (random) NBA Player
+            </summary>
+        </member>
+        <member name="M:Davids_Web_API.Controllers.PlayerController.AddPlayer(Davids_Web_API.Player)">
+            <summary>
+            Add Local API player
+            </summary>
+            <returns>A 201 Created response</returns>
+        </member>
+        <member name="M:Davids_Web_API.Controllers.PlayerController.UpdatePlayer(Davids_Web_API.Player)">
+            <summary>
+            Update Local API Player
+            </summary>
+            <returns>A 201 Created Response></returns>
+        </member>
+        <member name="M:Davids_Web_API.Controllers.PlayerController.Delete(System.Int32)">
+            <summary>
+            Delete Local API Player
+            </summary>
+            <returns>A 204 No Content Response</returns>
+        </member>
+    </members>
+</doc>
